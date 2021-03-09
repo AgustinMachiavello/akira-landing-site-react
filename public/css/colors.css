@@ -1,0 +1,12 @@
+:root {
+    --plain-black: black;
+    --white: #FEFEFE;
+}
+
+.bg-black {
+    background-color: var(--plain-black);
+}
+
+.bg-white {
+    background-color: var(--white);
+}

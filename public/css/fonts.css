@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Akira';
+    src: local('Akira'), url(../fonts/AkiraExpanded-SuperBold800.otf) format('opentype');
+}
+
+
+
+@font-face {
+    font-family: 'Saira';
+    src: local('saira'), url(../fonts/Saira-VariableFont_wdth.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Saira';
+}
+
+.font-f-akira {
+    font-family: 'Akira';
+}
+
+.text-centerm-leftd {
+    text-align: center;
+}
+
+.text-centerm-rightd {
+    text-align: center;
+}
+
+/* Responsive */
+
+/* xs and down */
+@media screen and (max-width: 576px) {
+}
+
+/* sm and up*/
+@media screen and (min-width: 576px) {
+}
+
+/* md and up*/
+@media screen and (min-width: 768px) {
+    
+}
+
+/* lg and up*/
+@media screen and (min-width: 992px) {
+    .text-centerm-leftd {
+        text-align: left;
+    }
+
+    .text-centerm-rightd {
+        text-align: right;
+    }
+}
+
+/* xl and up*/
+@media screen and (min-width: 1200px) {
+}
+
+/* Landscape responsive */
+@media only screen and (orientation: landscape) {
+    /* xs and down */
+    @media screen and (max-width: 576px) {
+    }
+
+    /* sm and up*/
+    @media screen and (min-width: 576px) {
+    }
+
+    /* md and up*/
+    @media screen and (min-width: 768px) {
+    }
+
+    /* lg and up*/
+    @media screen and (min-width: 992px) { 
+    }
+
+    /* xl and up*/
+    @media screen and (min-width: 1200px) {
+    }
+}

@@ -1,0 +1,74 @@
+.bg-animation {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__image-wrapper {
+    width: 100%;
+}
+
+.header__image-wrapper {
+    width: 100%;
+}
+
+.header__image {
+    width: 100%;
+}
+
+
+
+/* Responsive */
+
+/* xs and down */
+@media screen and (max-width: 576px) {
+}
+
+/* sm and up*/
+@media screen and (min-width: 576px) {
+}
+
+/* md and up*/
+@media screen and (min-width: 768px) {
+    
+}
+
+/* lg and up*/
+@media screen and (min-width: 992px) {
+
+    .hero__image-wrapper {
+        width: 50%;
+    }
+
+    .header__image-wrapper {
+        margin-top: -12rem;
+        width: 25%;
+    }
+}
+
+/* xl and up*/
+@media screen and (min-width: 1200px) {
+}
+
+/* Landscape responsive */
+@media only screen and (orientation: landscape) {
+    /* xs and down */
+    @media screen and (max-width: 576px) {
+    }
+
+    /* sm and up*/
+    @media screen and (min-width: 576px) {
+    }
+
+    /* md and up*/
+    @media screen and (min-width: 768px) {
+    }
+
+    /* lg and up*/
+    @media screen and (min-width: 992px) { 
+    }
+
+    /* xl and up*/
+    @media screen and (min-width: 1200px) {
+    }
+}
