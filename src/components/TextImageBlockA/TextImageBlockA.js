@@ -1,18 +1,18 @@
 import React from "react";
 // import {} from './TextImageBlockAStyles.js';
 
-import image from "../../assets/img/kaneda-side.png";
 
 const TextImageBlockA = (props) => (
   <div className="bg-black text-white">
     <div className="row flex-lg-row flex-column-reverse align-items-center">
       <div className="col col-12 col-lg-6">
         <div>
-          <img className="img-fluid" src={image}></img>
+          <img className="d-lg-none img-fluid" src={props.imageMobile}></img>
+          <img className="d-none d-lg-block img-fluid" src={props.imageDesktop}></img>
         </div>
       </div>
-      <div className="col col-12 col-lg-6 p-5 text-centerm-leftd">
-	  	  <h2 class="font-f-akira">{props.title}</h2>
+      <div className="col col-12 col-lg-6 p-4 p-lg-5 text-centerm-leftd">
+	  	  <h2 class="font-f-akira text-red">{props.title}</h2>
         <p>{props.paragraph}</p>
 	    </div>
     </div>

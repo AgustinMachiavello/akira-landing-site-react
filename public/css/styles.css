@@ -4,6 +4,12 @@
     background-size: cover;
 }
 
+.bg-full-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .hero__image-wrapper {
     width: 100%;
 }
@@ -16,7 +22,9 @@
     width: 100%;
 }
 
-
+.award__image {
+    width: 10%;
+}
 
 /* Responsive */
 

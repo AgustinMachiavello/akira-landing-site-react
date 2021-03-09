@@ -1,6 +1,7 @@
 :root {
     --plain-black: black;
     --white: #FEFEFE;
+    --red: #DA1E1E;
 }
 
 .bg-black {
@@ -9,4 +10,8 @@
 
 .bg-white {
     background-color: var(--white);
+}
+
+.text-red {
+  color: var(--red)  
 }
