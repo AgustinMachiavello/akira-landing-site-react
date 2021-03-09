@@ -26,6 +26,10 @@
     width: 10%;
 }
 
+.manga__item {
+    height: 200px;
+}
+
 /* Responsive */
 
 /* xs and down */
@@ -51,6 +55,10 @@
     .header__image-wrapper {
         margin-top: -12rem;
         width: 25%;
+    }
+
+    .manga__item {
+        height: 300px;
     }
 }
 

@@ -12,6 +12,10 @@
     background-color: var(--white);
 }
 
+.bg-red {
+    background-color: var(--red);
+}
+
 .text-red {
   color: var(--red)  
 }

@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Header from '../components/Header';
 import TextImageBlockA from '../components/TextImageBlockA';
 import Awards from '../components/Awards';
+import Manga from '../components/Manga';
 import FullScreenImage from '../components/FullScreenImage';
 
 
@@ -52,7 +53,7 @@ export default function Landing() {
           its list of Top 25 Animated Movies of All-Time. The Akira anime also made TIME 
           magazine's list of top 5 anime DVDs. The film also made number 16 on Time Out's 
           top 50 animated movie list and number 5 on the Total Film Top 50 Animated Films list."
-          imageMobile={textImageBlockMobile1}
+          imageMobile={null}
           imageDesktop={textImageBlockDesktop1}/>
         <Header 
           title="MANGA"
@@ -66,6 +67,7 @@ export default function Landing() {
           ". The manga is also famous for spawning the seminal 1988 cyberpunk anime film adaptation of the same name."]}
           imageMobile={headerImageMobile2}
           imageDesktop={headerImageDesktop2}/>
+        <Manga />
         <FullScreenImage image={motorbikeImage} />
     </div>
   )
