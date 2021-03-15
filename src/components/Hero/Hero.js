@@ -6,11 +6,14 @@ const Hero = (props) => {
       className="d-flex bg-animation p-2 vh-100 flex-column justify-content-center align-items-center text-white bg-black" 
       style={{backgroundImage: 'url(' + props.backgroundImage + ')'}}>
       {props.image &&
-        <div className="hero__image-wrapper">
+        <div className="d-flex justify-content-center hero__image-wrapper" data-aos="zoom-out-down">
           <img className="hero__image img-fluid" src={props.image}></img>
         </div>
       }
-      <h1 className="text-center">{props.title}</h1>
+      <div className="text-center">
+        <h1 className="" data-aos="zoom-out-up">{props.title}</h1>
+        <span><img className="hero__icon" src={props.icon}></img></span>
+      </div>
 		</div>
 	);
 };

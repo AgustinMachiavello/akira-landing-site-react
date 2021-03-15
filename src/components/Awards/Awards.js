@@ -19,15 +19,13 @@ const awards = [
 ]
 
 const Awards = () => (
-  <div class="row px-5 pb-5 flex-column flex-lg-row justify-content-center">
+  <div className="row gx-0 py-5 flex-column flex-lg-row justify-content-center">
     {awards.map((award, awardIndex) => {
       return (
-        <div className="col-12 col-lg-4">
           <AwardItem
             {...award}
             key={awardIndex}
           />
-        </div>
       )
     })}
   </div>

@@ -1,7 +1,23 @@
+.row {
+    margin:0px;
+    padding: 0px;
+}
+
+.col {
+    margin:0px;
+    padding: 0px;  
+}
+
 .bg-animation {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg-image-contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .bg-full-image {
@@ -18,16 +34,24 @@
     width: 100%;
 }
 
+.hero__icon {
+    width: 25px;
+}
+
 .header__image {
     width: 100%;
 }
 
 .award__image {
-    width: 10%;
+    width: 100px;
 }
 
-.manga__item {
-    height: 200px;
+.manga__item__image {
+    height: 100%;
+}
+
+.manga__item__text {
+    color: var(--white);
 }
 
 /* Responsive */
@@ -53,12 +77,22 @@
     }
 
     .header__image-wrapper {
-        margin-top: -12rem;
+        /*margin-top: -12rem;*/
         width: 25%;
+        border: 1px solid var(--plain-black);
     }
 
     .manga__item {
         height: 300px;
+    }
+
+    .manga__item__text {
+        background-image: unset !important;
+        color: var(--white);
+    }
+
+    .manga__title {
+        color: var(--red);
     }
 }
 
